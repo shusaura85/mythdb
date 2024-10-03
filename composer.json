@@ -1,0 +1,25 @@
+{
+    "name": "shusaura85/mythdb",
+    "type": "library",
+    "description": "Simple database abstraction layer for PHP",
+    "homepage":"https://github.com/shusaura85/mythdb",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Shu Saura"
+        }
+    ],
+    "require": {
+        "php": ">=8.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "MythDB\\": "src/"
+        }
+    }
+}
+

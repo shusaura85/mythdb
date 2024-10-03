@@ -31,12 +31,12 @@ Usage
 --------------------
 
 ``` php
-    require 'vendor/autoload.php'; // or '/path/to/src/autoload.php'  
-    
-    $db_driver = 'mysqli'; // available drivers: mysqli, pgsql, sqlite3  
-    $db_persistent = false; // set to true to use a persistent connection  
-    $db_utf8names = 'UTF-8'; // if set, automatically calls query "SET NAMES <value>". not supported in sqlite  
-    $db = new \MythDB\Database($db_driver, 'host', 'username', 'password', 'database', $db_persistent, $db_utf8names);
+require 'vendor/autoload.php'; // or '/path/to/src/autoload.php'  
+
+$db_driver = 'mysqli'; // available drivers: mysqli, pgsql, sqlite3  
+$db_persistent = false; // set to true to use a persistent connection  
+$db_utf8names = 'UTF-8'; // if set, automatically calls query "SET NAMES <value>". not supported in sqlite  
+$db = new \MythDB\Database($db_driver, 'host', 'username', 'password', 'database', $db_persistent, $db_utf8names);
 ```
 
 
